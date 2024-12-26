@@ -1,4 +1,4 @@
-FROM python:3.7-alpine AS recon-ng
+FROM python:3.14.0a1-alpine AS recon-ng
 
 RUN mkdir -p /recon-ng
 
